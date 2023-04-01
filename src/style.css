@@ -115,3 +115,8 @@ form button {
   cursor: pointer;
   background: #5f9ea0;
 }
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}

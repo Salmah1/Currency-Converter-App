@@ -15,37 +15,49 @@
     <title>Currency Converter</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header>Currency Converter</header>
-      <form action="#">
-        <div class="amount">
-          <p>Enter Amount</p>
-          <input type="text" value="1" />
-        </div>
-        <div class="drop-list">
-          <div class="from">
-            <p>From</p>
-            <div class="select-box">
-              <img src="https://flagsapi.com/AE/flat/64.png" alt="flag" />
-              <select></select>
+    <div class="container">
+      <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+          <div class="amount">
+            <p>Enter Amount</p>
+            <input type="text" value="1" />
+          </div>
+          <div class="drop-list">
+            <div class="from">
+              <p>From</p>
+              <div class="select-box">
+                <img src="https://flagsapi.com/AE/flat/64.png" alt="flag" />
+                <select></select>
+              </div>
+            </div>
+
+            <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+
+            <div class="to">
+              <p>TO</p>
+              <div class="select-box">
+                <img src="https://flagsapi.com/US/flat/64.png" alt="flag" />
+                <select></select>
+              </div>
             </div>
           </div>
+          <div class="exchange-rate">Getting exchange rate...</div>
+          <button>Get Exchange Rate</button>
+        </form>
+      </div>
 
-          <div class="icon"><i class="fas fa-exchange-alt"></i></div>
-
-          <div class="to">
-            <p>TO</p>
-            <div class="select-box">
-              <img src="https://flagsapi.com/US/flat/64.png" alt="flag" />
-              <select></select>
-            </div>
-          </div>
-        </div>
-        <div class="exchange-rate">Getting exchange rate...</div>
-        <button>Get Exchange Rate</button>
-      </form>
+      <div class="footer">
+        <p>
+          Open-source code on
+          <a
+            href="https://github.com/Salmah1/Currency-Exchange-App.git"
+            target="_blank"
+            >Github</a
+          >.
+        </p>
+      </div>
     </div>
-
     <script src="src/country-list.js"></script>
     <script src="src/index.js"></script>
   </body>
